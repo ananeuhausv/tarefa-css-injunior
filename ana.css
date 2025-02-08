@@ -1,0 +1,334 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 109px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 30px 28px 30px;
+    background-color: #c4c4c4;
+}
+
+.titulo h1{
+    font-family: 'Alata';
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 55.2px;
+    color: #000000;
+    margin: 0;
+}
+.link{
+    display: flex;
+    padding: 8px 16px 8px 16px;
+    gap: 10px;
+}
+.link a{
+    font-family: 'Alata';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33.12px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.sobre-mim{
+    width: 100%;
+    height: 318px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 109px;
+    padding: 32px;
+    gap: 125px;
+    background-color: #F3F3F3;
+    position: absolute;
+}
+
+.sobre-mim img{
+    width: 247px;
+    height: 247px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 4px 4px 4px 0 #00000040 ;
+}
+
+.texto{
+    width: 614px;
+    height: 186px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+.texto h2{
+    font-family: 'Alata';
+    width: 95px;
+    height: 36px;
+    top: 66px;
+    left: 599px;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 33px;
+}
+.texto p{
+    font-family: 'Alata';
+    width: 614px;
+    height: 134px;
+    top: 117px;
+    left: 599px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: justify;
+}
+
+.listas{
+    width: 100%;
+    height: 289px;
+    top: 427px;
+    padding: 20px;
+    gap: 26px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #FFFFFF;
+    position: absolute;
+}
+.hobbies{
+    width: 595px;
+    height: 249px;
+    padding: 20px;
+    gap: 26px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.hobbies h3{
+    font-family: 'Alata';
+    width: 95px;
+    height: 33px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33.12px;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hobbies ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    padding: 0;
+    justify-content: center;
+}
+.hobbies li{
+    font-family: 'Alata';
+    width: 104px;
+    height: 150px;
+    background-color: #dfdfdf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 17px;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-transform: capitalize;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+.sports{
+    width: 595px;
+    height: 249px;
+    padding: 20px;
+    gap: 26px;
+    display: flex;
+    flex-direction: column;
+}
+.sports h3{
+    font-family: 'Alata';
+    width: 95px;
+    height: 33px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33.12px;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sports ol{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    padding: 0;
+    justify-content: center;
+}
+.sports li{
+    width: 104px;
+    height: 150px;
+    background-color: #dfdfdf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 17px;
+    gap: 10px;
+    font-family: 'Alata';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-transform: capitalize;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    position: relative;
+}
+.numero{
+    position: absolute;
+    width: 19px;
+    height: 44px;
+    top: 0;
+    left: 3px;
+    background-color: #C4C4C4;
+    color: #000000;
+    font-family: 'Alata';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.feedbacks{
+    width: 1200px;
+    height: 236px;
+    margin: 0 auto;
+    top: 792px;
+    left: 136px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 16px;
+    border-radius: 8px;
+    position: absolute;
+}
+.feedbacks h2{
+    width: 136px;
+    height: 33px;
+    font-family: 'Alata';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #000000;
+    align-self: flex-start;
+}
+.feedbacks form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.feedbacks form div {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+.feedbacks form textarea, .feedbacks form input{
+    width: 1128px;
+    height: 56px;
+    top: 845px;
+    left: 176px;
+    font-family: 'Alata';
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    text-align: center;
+    text-align: left;
+    padding-left: 10px;
+    background-color: #ECECEC
+}
+.feedbacks form textarea::placeholder{
+    color: #454444;
+    text-align: left;
+    vertical-align: middle;
+    line-height: 56px;
+}
+.feedbacks form input::placeholder {
+    color: #454444;
+    text-align: left;
+}
+.feedbacks form button {
+    width: 127px;
+    height: 37px;
+    top: 991px;
+    left: 1149px;
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'Alata';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+footer{
+    width: 100%;
+    height: 70px;
+    top: 1082px;
+    padding: 16px 32px;
+    background-color: #C4C4C4;
+    position: absolute;
+}
+
+footer div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.redes{
+    width: 94px;
+    height: 32px;
+    padding: 10px;
+}
+.contato{
+    width: 162px;
+    height: 38px;
+    border-radius: 5px;
+    padding: 8px 10px;
+    gap: 10px;
+    background-color: #dfdfdf;
+    display: flex;
+    justify-content: center;
+}
+.contato a{
+    width: 130px;
+    height: 22px;
+    font-family: 'Alata';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+/*HOOVER: as "cartas virarem pra oq ta escrtio nelas
+botao mudar de cor e aumentar quando passa o mouse mesma coisa com "entrar em contato" e ao pressionar os links eles ficarem azuis*/
