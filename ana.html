@@ -3,25 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ana.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
     <title>Ana Laura</title>
 </head>
 <body>
     <header>
-        <h1>
-            Ana Laura Neuhaus Vega 
-            <span>| <a href="index.html">Home</a></span>
-        </h1>
+        <div class="titulo">
+            <h1>Título</h1>
+        </div>
+        <div class="link">
+            <a href="index.html">Home</a>
+            <a href="index.html">Link</a>
+            <a href="index.html">Link</a>
+        </div>
+        
 
     </header>
     <main>
-        <div id="sobre-mim">
-            <h2>Sobre Mim</h2>
-            <img src="../imgs/foto.ana.png" width="200" height="200" alt="Foto de Ana Laura Neuhaus Vega"> 
-            <p>Olá! Me chamo Ana Laura e sou estudante de Sistemas de Informação na UFF. Sou uma pessoa extremamente <br> curiosa, sempre em busca de aprender e explorar novas possibilidades. Tenho um grande interesse por tecnologia <br> e inovação, que me permite encontrar soluções criativas e mais eficientes para os desafios diários. Além do meu <br> interesse por tecnologia, gosto de ler (desde ficção científica a romances clichês) e assistir esportes (principalmente <br> Fórmula 1 e NFL).   </p>
+        <div class="sobre-mim">
+            <img src="/images/foto.ana.png" alt="Foto de Ana Laura Neuhaus Vega"> 
+            <div class="texto">
+                <h2>Sobre mim</h2>
+                <p>Olá! Me chamo Ana Laura e sou estudante de Sistemas de Informação na UFF. Sou uma pessoa extremamente curiosa, sempre em busca de aprender e explorar novas possibilidades. Tenho um grande interesse por tecnologia e inovação, que me permite encontrar soluções criativas e mais eficientes para os desafios diários. Além do meu interesse por tecnologia, gosto de ler (desde ficção científica a romances clichês) e assistir esportes (principalmente Fórmula 1 e NFL).</p>
+            </div>
         </div>
 
-        <div id="hobbies-and-sports">
-            <div id="hobbies">
+        <div class="listas">
+            <div class="hobbies">
                 <h3>Hobbies</h3>
                 <ul>
                     <li>Ler</li>
@@ -31,39 +40,60 @@
                     <li>Estudar diferentes idiomas</li>
                 </ul>
             </div>
-            <div id="sports">
-                <h3>Top 5 esportes</h3>
+            <div class="sports">
+                <h3>Esportes</h3>
                 <ol>
-                    <li>Fórmula 1</li>
-                    <li>Futebol Americano</li>
-                    <li>Surfe</li>
-                    <li>Hockey</li>
-                    <li>Futebol</li>
+                    <li>
+                        <div class="numero">1</div>
+                        <p>Fórmula 1</p>
+                    </li>
+                    <li>
+                        <div class="numero">2</div>
+                        <p>Futebol Americano</p>
+                    </li>
+                    <li>
+                        <div class="numero">3</div>
+                        <p>Surfe</p>
+                    </li>
+                    <li>
+                        <div class="numero">4</div>
+                        <p>Hockey</p>
+                    </li>
+                    <li>
+                        <div class="numero">5</div>
+                        <p>Futebol</p>
+                    </li>
                 </ol>
             </div>
         </div>
-        <section id="feedbacks">
+        <section class="feedbacks">
             <h2>Feedbacks</h2>
             <form>
                 <div>
-                    <label for="nome-completo">Nome Completo:</label> <br>
-                    <input id="nome-completo" placeholder="Nome completo" type="text" required> <br> <br>
+                    <textarea placeholder="Dê um feedback para esse desenvolvedor!" style="resize: none;" required></textarea> 
+                </div>
+                <div class="Nome">
+                    <input placeholder="Digite seu nome aqui" type="text" required> 
                 </div>
                 <div>
-                    <label for="feedback">Feedback:</label> <br>
-                <textarea id="feedback" placeholder="Feedback" style="resize: none;" rows="5" cols="30" required></textarea> <br> <br>
-                </div>
-                <div>
-                    <button type="submit">Enviar</button> <br> <br>
+                    <button type="submit">Enviar</button> 
                 </div>
             </form>
         </section>
     </main>
     <footer>
         <div>
-            <a href="https://github.com/ananeuhausv" target="_blank">GitHub</a>
-            <a href="https://www.instagram.com/ananeuhaus_/" target="_blank">Instagram</a>
-            <a href="../contato_pessoas/contato-ana.html">Contact Me</a>
+            <div class="redes">
+              <a href="https://github.com/ananeuhausv" target="_blank">
+                <img src="/images/gitlab.png" alt="logo gitlab">
+            </a>
+            <a href="https://www.instagram.com/ananeuhaus_/" target="_blank"> 
+                <img src="/images/instagram.png" alt="logo instagram"> 
+            </a> 
+            </div>
+            <div class="contato">
+              <a href="../contato_pessoas/contato-ana.html">Entrar em contato</a>  
+            </div>
         </div>
     </footer>
 </body>
