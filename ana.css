@@ -11,7 +11,7 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 28px 30px 28px 30px;
-    background-color: #c4c4c4;
+    background-color: #B589DE;
 }
 .titulo h1{
     font-family: 'Alata';
@@ -40,7 +40,7 @@ header{
     content: " ";
     width: 0%;
     height: 3px;
-    background-color: #33fcff;
+    background-color: #FFFFFF;
     position: absolute;
     left: 0;
     bottom: -3px;
@@ -58,7 +58,7 @@ header{
     justify-content: center;
     padding: 32px;
     gap: 125px;
-    background-color: #F3F3F3;
+    background-color: #D5B0FD;
 }
 
 .sobre-mim img{
@@ -137,8 +137,14 @@ header{
     font-size: 16px;
     font-weight: 400;
     line-height: 22px;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
     text-transform: capitalize;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    /*imagem de fundo*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .sports{
@@ -178,9 +184,15 @@ header{
     font-size: 16px;
     font-weight: 400;
     line-height: 22px;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
     text-transform: capitalize;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
     position: relative;
+    /*imagem de fundo*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .numero{
     position: absolute;
@@ -200,6 +212,10 @@ header{
     padding-left: 5px;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
+}
+.sports li:hover, .hobbies li:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease-in-out;
 }
 
 .feedbacks{
@@ -276,7 +292,7 @@ header{
 footer{
     width: 100%;
     padding: 16px 32px;
-    background-color: #C4C4C4;
+    background-color: #B589DE;
     margin-top: 55px;
 }
 
