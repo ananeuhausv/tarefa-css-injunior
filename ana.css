@@ -299,6 +299,10 @@ footer div{
     background-color: #dfdfdf;
     display: flex;
     justify-content: center;
+
+    &:hover{
+        background-color: #B3B1B1;
+    }
 }
 .contato a{
     width: 130px;
